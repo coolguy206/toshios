@@ -5,84 +5,84 @@
 <h2>Teriyaki</h2>
 <p>Served with rice and salad</p>
 <ol class="menu">
-<li>Chicken Teriyaki <b>$7.29</b></li>
-<li>Beef Teriyaki <b>$8.93</b></li>
-<li>Pork Teriyaki <b>$8.59</b></li>
-<li>Short Ribs Teriyaki <b>$9.79</b></li>
-<li>Salmon Teriyaki <b>$9.48</b></li>
+<li>Chicken Teriyaki <b>$8.49</b></li>
+<li>Beef Teriyaki <b>$10.49</b></li>
+<li>Pork Teriyaki <b>$10.09</b></li>
+<li>Short Ribs Teriyaki <b>$11.79</b></li>
+<li>Salmon Teriyaki <b>$11.29</b></li>
 
 
 <h2>Katsu</h2>
-<li>Tonkatsu <b>$9.29</b></li>
-<li>Chicken Katsu <b>$9.48</b></li>
+<li>Tonkatsu <b>$11.09</b></li>
+<li>Chicken Katsu <b>$11.29</b></li>
 
 
 <h2>Combination Teriyaki</h2>
 <p>Served with rice and salad</p>
 
-<li>Chicken Teri &amp; Gyoza <b>$9.48</b></li>
-<li>Chicken &amp; Beef Teriyaki <b>$9.79</b></li>
-<li>Chicken &amp; Pork Teriyaki <b>$9.59</b></li>
-<li>Beef &amp; Pork Teriyaki <b>$10.59</b></li>
-<li>Chicken &amp; Short Ribs <b>$11.59</b></li>
+<li>Chicken Teri &amp; Gyoza <b>$10.79</b></li>
+<li>Chicken &amp; Beef Teriyaki <b>$11.29</b></li>
+<li>Chicken &amp; Pork Teriyaki <b>$11.09</b></li>
+<li>Beef &amp; Pork Teriyaki <b>$12.59</b></li>
+<li>Chicken &amp; Short Ribs <b>$13.99</b></li>
 
 
 <h2>Tempura &amp; Combinations</h2>
 <p>Served with rice and salad</p>
 
-<li>Shrimp Tempura <b>$9.48</b></li>
-<li>Vegetable Tempura <b>$7.29</b></li>
-<li>Chicken Teriyaki &amp; Vegetable Tempura <b>$9.48</b></li>
-<li>Beef Teriyaki &amp; Vegetable Tempura <b>$10.59</b></li>
-<li>Pork Teriyaki &amp; Vegetable Tempura <b>$9.99</b></li>
+<li>Shrimp Tempura <b>$10.79</b></li>
+<li>Vegetable Tempura <b>$8.49</b></li>
+<li>Chicken Teriyaki &amp; Vegetable Tempura <b>$10.79</b></li>
+<li>Beef Teriyaki &amp; Vegetable Tempura <b>$12.59</b></li>
+<li>Pork Teriyaki &amp; Vegetable Tempura <b>$12.09</b></li>
 
 
 <h2>Donburi</h2>
 
-<li>Chicken Donburi <b>$7.29</b></li>
-<li>Beef Donburi <b>$8.69</b></li>
-<li>Katsu Donburi <b>$8.39</b></li>
+<li>Chicken Donburi <b>$8.49</b></li>
+<li>Beef Donburi <b>$10.29</b></li>
+<li>Katsu Donburi <b>$9.79</b></li>
 
 
 <h2>Noodles</h2>
 
-<li>Chicken Yakisoba <b>$8.59</b></li>
-<li>Beef Yakisoba <b>$8.79</b></li>
-<li>Pork Yakisoba <b>$8.79</b></li>
-<li>Vegetable Yakisoba <b>$7.79</b></li>
-<li>Shrimp Yakisoba <b>$9.48</b></li>
-<li>Udon <b>$6.79</b></li>
-<li>Chicken Udon <b>$7.29</b></li>
-<li>Beef Udon <b>$8.49</b></li>
-<li>Tempura Udon <b>$8.99</b></li>
-<li>Gyoza Dinner (8 pieces) <b>$7.29</b></li>
+<li>Chicken Yakisoba <b>$9.95</b></li>
+<li>Beef Yakisoba <b>$10.29</b></li>
+<li>Pork Yakisoba <b>$10.29</b></li>
+<li>Vegetable Yakisoba <b>$8.95</b></li>
+<li>Shrimp Yakisoba <b>$10.79</b></li>
+<li>Udon <b>$7.79</b></li>
+<li>Chicken Udon <b>$8.49</b></li>
+<li>Beef Udon <b>$9.89</b></li>
+<li>Tempura Udon <b>$10.49</b></li>
+<li>Gyoza Dinner (8 pieces) <b>$8.49</b></li>
 
 
 <h2>Side Dishes</h2>
 
 <li>Gyoza (8 pieces) <b>$4.58</b></li>
 <li>Shrimp Tempura <b>$4.75</b></li>
-<li>Egg Roll <b>$2.88</b></li>
-<li>Sauteed Vegetable <b>$5.75</b></li>
-<li>Vegetable Tempura (A) <b>$5.25</b> <br>
+<li>Egg Roll(2) <b>$3.25</b></li>
+<li>Sauteed Vegetable <b>$7.29</b></li>
+<li>Vegetable Tempura (A) <b>$5.55</b> <br>
 Veg. Tempura Combo <b>$7.45</b>
 </li>
 <li>Miso Soup <b>$1.99</b></li>
-<li>Kim Chee <b>$2.55</b></li>
+<li>Kim Chee <b>$2.99</b></li>
 <li>Steamed Rice <b>$0.79</b></li>
-<li>Side Salad <b>Sm $2.55<br/> Lg $3.55</b></li>
+<li>Side Salad <b>Sm $2.95<br/> Lg $3.95</b></li>
 </ol>
 
 <h2>House Special</h2>
 <ul class="menu">
-<li>Chicken Curry <b>$7.29</b></li>
-<li>Beef Curry <b>$8.29</b></li>
+<li>Chicken Curry <b>$8.49</b></li>
+<li>Beef Curry <b>$9.49</b></li>
 </ul>
 
 <h2>Extras</h2>
 <ul class="menu">
 <li>Teriyaki Sauce <b>$0.50</b></li>
-<li>Dressing <b>$0.45</b></li>
+<li>Dressing <b>$0.50</b></li>
 <li>Hot Sauce <b>$0.25</b></li>
 </ul>
 
