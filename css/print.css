@@ -1,0 +1,42 @@
+@media print {
+header {
+	max-width: 100%;
+	padding: 0px;
+	margin: auto;
+}
+.box380 {
+	width: 100%; 
+	float: none;
+}
+.box220 {
+	width: 100%;
+	float: none;
+}
+.nav-wrapper {
+	display: none;
+}
+#youtube {
+	display: none;
+}
+.content-wrapper {
+	padding: 0px;
+}
+.content {
+	max-width: 100%;
+	padding: 0px;
+	background: #fff;
+	border: none;
+}
+.box460 {
+	width: 100%;
+	float: none;
+}
+.box300 {
+	width: 100%;
+	float: none;
+}
+.footer-wrapper {
+	display: none;
+}
+
+}
