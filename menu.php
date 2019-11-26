@@ -2,99 +2,56 @@
 <div class="box460">
 <h1 id="menu-title">Toshio's Teriyaki Menu</h1>
 <h2 id="price">Prices Subject to Change</h2>
+<div class="menu">
+<div class="teriyaki">
 <h2>Teriyaki</h2>
 <p>Served with rice and salad</p>
-<ol class="menu">
-<li>Chicken Teriyaki <b>$8.49</b></li>
-<li>Beef Teriyaki <b>$10.49</b></li>
-<li>Pork Teriyaki <b>$10.09</b></li>
-<li>Short Ribs Teriyaki <b>$11.79</b></li>
-<li>Salmon Teriyaki <b>$11.29</b></li>
+<ul></ul>
+</div>
 
-
-<h2>Katsu</h2>
-<li>Tonkatsu <b>$11.09</b></li>
-<li>Chicken Katsu <b>$11.29</b></li>
-
-
+<div class="combo-teriyaki">
 <h2>Combination Teriyaki</h2>
 <p>Served with rice and salad</p>
+<ul></ul>
+</div>
 
-<li>Chicken Teri &amp; Gyoza <b>$10.79</b></li>
-<li>Chicken &amp; Beef Teriyaki <b>$11.29</b></li>
-<li>Chicken &amp; Pork Teriyaki <b>$11.09</b></li>
-<li>Beef &amp; Pork Teriyaki <b>$12.59</b></li>
-<li>Chicken &amp; Short Ribs <b>$13.99</b></li>
-
-
+<div class="tempura">
 <h2>Tempura &amp; Combinations</h2>
 <p>Served with rice and salad</p>
+<ul></ul>
+</div>
 
-<li>Shrimp Tempura <b>$10.79</b></li>
-<li>Vegetable Tempura <b>$8.49</b></li>
-<li>Chicken Teriyaki &amp; Vegetable Tempura <b>$10.79</b></li>
-<li>Beef Teriyaki &amp; Vegetable Tempura <b>$12.59</b></li>
-<li>Pork Teriyaki &amp; Vegetable Tempura <b>$12.09</b></li>
-
-
+<div class="donburi">
 <h2>Donburi</h2>
+<ul></ul>
+</div>
 
-<li>Chicken Donburi <b>$8.49</b></li>
-<li>Beef Donburi <b>$10.29</b></li>
-<li>Katsu Donburi <b>$9.79</b></li>
-
-
+<div class="noodles">
 <h2>Noodles</h2>
+<ul></ul>
+</div>
 
-<li>Chicken Yakisoba <b>$9.95</b></li>
-<li>Beef Yakisoba <b>$10.29</b></li>
-<li>Pork Yakisoba <b>$10.29</b></li>
-<li>Vegetable Yakisoba <b>$8.95</b></li>
-<li>Shrimp Yakisoba <b>$10.79</b></li>
-<li>Udon <b>$7.79</b></li>
-<li>Chicken Udon <b>$8.49</b></li>
-<li>Beef Udon <b>$9.89</b></li>
-<li>Tempura Udon <b>$10.49</b></li>
-<li>Gyoza Dinner (8 pieces) <b>$8.49</b></li>
-
-
+<div class="sides">
 <h2>Side Dishes</h2>
+<ul></ul>
+</div>
 
-<li>Gyoza (8 pieces) <b>$4.58</b></li>
-<li>Shrimp Tempura <b>$4.75</b></li>
-<li>Egg Roll(2) <b>$3.25</b></li>
-<li>Sauteed Vegetable <b>$7.29</b></li>
-<li>Vegetable Tempura (A) <b>$5.55</b> <br>
-Veg. Tempura Combo <b>$7.45</b>
-</li>
-<li>Miso Soup <b>$1.99</b></li>
-<li>Kim Chee <b>$2.99</b></li>
-<li>Steamed Rice <b>$0.79</b></li>
-<li>Side Salad <b>Sm $2.95<br> Lg $3.95</b></li>
-</ol>
-
+<div class="specials">
 <h2>House Special</h2>
-<ul class="menu">
-<li>Chicken Curry <b>$8.49</b></li>
-<li>Beef Curry <b>$9.49</b></li>
-</ul>
+<ul></ul>
+</div>
 
+<div class="extras">
 <h2>Extras</h2>
-<ul class="menu">
-<li>Teriyaki Sauce <b>$0.50</b></li>
-<li>Dressing <b>$0.50</b></li>
-<li>Hot Sauce <b>$0.25</b></li>
-</ul>
+<ul></ul>
+</div>
 
+<div class="beverages">
 <h2>Beverages</h2>
 <p>Diet Coke, Coke, Sprite, Minute Maid Lemonade, Barq's Root Beer</p>
-<ul class="menu">
-<li>Large <b>$1.89</b></li>
-<li>Medium <b>$1.69</b></li>
-<li>Small <b>$1.39</b></li>
-</ul>
-
-
+<ul></ul>
+</div>
+</div>
 </div>
 
 <div class="box460" id="menu-pics">
@@ -107,5 +64,104 @@ Veg. Tempura Combo <b>$7.45</b>
 <img src="images/miso.jpg" alt="Miso Soup Sides" title="Miso Soup Sides">
 
 </div><!--.box460-->
+
+<script>
+$(document).ready(functtion(){
+  var teriyaki = [
+  {num:1, name: "Chicken Teriyaki", price: "$9.49"},
+  {num:2, name: "Beef Teriyaki", price: "$11.59"},
+  {num:3, name: "Pork Teriyaki", price: "$11.49"},
+  {num:4, name: "Short Ribs", price: "$12.99"},
+  {num:5, name: "Salmon Teriyaki", price: "$12.49"},
+  {num:6, name: "Tonkatsu", price: "$12.29"},
+  {num:7, name: "Chicken Katsu", price: "$12.49"},
+  ];
+
+  var comboTeriyaki = [
+  {num:8, name: "Chicken Teri &amp; Gyoza", price: "$11.79"},
+  {num:9, name: "Chicken &amp; Beef", price: "$12.59"},
+  {num:10, name: "Chicken &amp; Pork", price: "$12.29"},
+  {num:11, name: "Beef &amp; Pork", price: "$13.79"},
+  {num:12, name: "Chicken &amp; Short Ribs", price: "$15.09"},
+  ];
+
+  var tempura = [
+  {num:13, name: "Shrimp Tempura", price: "$11.79"},
+  {num:14, name: "Vegetable Tempura", price: "$9.49"},
+  {num:15, name: "Chicken Teriyaki &amp; Vegetable Tempura", price: "$11.79"},
+  {num:16, name: "Beef Teriyaki &amp; Vegetable Tempura", price: "$13.79"},
+  {num:17, name: "Pork Teriyaki &amp; Vegetable Tempura", price: "$13.10"},
+  ];
+
+  var donburi = [
+  {num:18, name: "Chicken Donburi", price: "$9.59"},
+  {num:19, name: "Beef Donburi", price: "$11.59"},
+  {num:20, name: "Katsu Donburi", price: "$11.09"},
+  ];
+
+  var noodles = [
+  {num:21, name: "Chicken Yakisoba", price: "$11.09"},
+  {num:22, name: "Beef Yakisoba", price: "$11.79"},
+  {num:23, name: "Pork Yakisoba", price: "$11.59"},
+  {num:24, name: "Vegetable Yakisoba", price: "$9.99"},
+  {num:25, name: "Shrimp Yakisoba", price: "$11.99"},
+  {num:26, name: "Udon", price: "$8.99"},
+  {num:27, name: "Chicken Udon", price: "$9.59"},
+  {num:28, name: "Beef Udon", price: "$10.99"},
+  {num:29, name: "Tempura Udon", price: "$11.29"},
+  {num:30, name: "Gyoza Dinner (8 pieces)", price: "$9.59"},
+  ];
+
+  var sides = [
+  {num:31, name: "Gyoza (8 pieces)", price: "$4.58"},
+  {num:32, name: "Shrimp Tempura(3)", price: "$4.75"},
+  {num:33, name: "Egg Roll(2)", price: "$3.25"},
+  {num:34, name: "Sauteed Vegetable", price: "$7.99"},
+  {num:35, name: "Vegetable Tempura (A)", price: "$5.95"},
+  {num:35, name: "Vege Tempura Combo (B)", price: "$7.75"},
+  {num:36, name: "Miso Soup", price: "$1.99"},
+  {num:37, name: "Kim Chee", price: "$2.99"},
+  {num:38, name: "Steamed Rice", price: "$0.79"},
+  {num:39, name: "Side Salad small", price: "$3.75"},
+  {num:39, name: "Side Salad large", price: "$4.75"},
+  ];
+
+  var specials = [
+  {num:0, name: "Chicken Curry", price: "$9.49"},
+  {num:0, name: "Beef Curry", price: "$10.49"},
+  ];
+
+  var extras = [
+  {num:0, name: "Teriyaki Sauce", price: "$0.50"},
+  {num:0, name: "Dressing", price: "$0.50"},
+  {num:0, name: "Hot Sauce", price: "$0.25"},
+  ];
+
+  var beverages = [
+  {num:0, name: "Large", price: "$1.89"},
+  {num:0, name: "Medium", price: "$1.69"},
+  {num:0, name: "Small", price: "$1.39"},
+  ];
+
+  var loop = function(arr, elem){
+    var html = '';
+    $.each(arr, function(i,val){
+      var li = '<li><span>' + val.num + '.</span> ' + val.name + ' <b>'+ val.price+ '</b></li>';
+      html = html + li;
+    });
+    $(elem).append(html);
+  };
+
+  loop(teriyaki, '.teriyaki ul');
+  loop(comboTeriyaki, '.combo-teriyaki ul');
+  loop(tempura, '.tempura ul');
+  loop(donburi, '.donburi ul');
+  loop(noodles, '.noodles ul');
+  loop(sides, '.sides ul');
+  loop(specials, '.specials ul');
+  loop(extras, '.extras ul');
+  loop(beverages, '.beverages ul');
+});
+</script>
 
 <?php include('footer.php'); ?>
