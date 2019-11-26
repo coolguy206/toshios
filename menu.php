@@ -65,8 +65,10 @@
 
 </div><!--.box460-->
 
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 <script>
-$(document).ready(functtion(){
+$(document).ready(function(){
   var teriyaki = [
   {num:1, name: "Chicken Teriyaki", price: "$9.49"},
   {num:2, name: "Beef Teriyaki", price: "$11.59"},
