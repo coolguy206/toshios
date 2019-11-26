@@ -70,7 +70,7 @@ Veg. Tempura Combo <b>$7.45</b>
 <li>Miso Soup <b>$1.99</b></li>
 <li>Kim Chee <b>$2.99</b></li>
 <li>Steamed Rice <b>$0.79</b></li>
-<li>Side Salad <b>Sm $2.95<br/> Lg $3.95</b></li>
+<li>Side Salad <b>Sm $2.95<br> Lg $3.95</b></li>
 </ol>
 
 <h2>House Special</h2>
@@ -95,7 +95,7 @@ Veg. Tempura Combo <b>$7.45</b>
 </ul>
 
 
-</div><!--.box460-->
+</div>
 
 <div class="box460" id="menu-pics">
 <img src="images/chicken-vegetable-tempura.jpg" alt="Chicken Teriyaki & Vegetable Tempura" title="Chicken Teriyaki & Vegetable Tempura">
