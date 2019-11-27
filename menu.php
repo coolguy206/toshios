@@ -140,9 +140,9 @@ $(document).ready(function(){
   ];
 
   var beverages = [
-  {num:0, name: "Large", price: "$1.89"},
-  {num:0, name: "Medium", price: "$1.69"},
-  {num:0, name: "Small", price: "$1.39"},
+  {num:0, name: "Large", price: "$2.29"},
+  {num:0, name: "Medium", price: "$1.99"},
+  {num:0, name: "Small", price: "$1.69"},
   ];
 
   var loop = function(arr, elem){
