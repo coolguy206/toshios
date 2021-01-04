@@ -35,8 +35,8 @@
 
 <div class="box220">
 	<h2>Hours</h2>
-	<p>Monday-Saturday<br> 
-	10:30AM - 9PM<br> 
+	<p>Monday-Saturday<br>
+	10:30AM - 8PM<br>
 	Closed Sunday<br>
 	<!--<a href="tel:2063236303">206-323-6303</a>-->
 <div id="phone">206-323-6303</div>
@@ -63,7 +63,7 @@
 	</li>
 	<li><a href="menu.php">Menu</a></li>
 	<li><a href="gallery.php">Gallery</a></li>
-	
+
 	<li><a href="location.php">Location</a></li>
 </ul>
 </nav>

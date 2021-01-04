@@ -70,67 +70,67 @@
 <script>
 $(document).ready(function(){
   var teriyaki = [
-  {num:1, name: "Chicken Teriyaki", price: "$9.59"},
-  {num:2, name: "Beef Teriyaki", price: "$12.19"},
-  {num:3, name: "Pork Teriyaki", price: "$11.79"},
-  {num:4, name: "Short Ribs", price: "$13.99"},
-  {num:5, name: "Salmon Teriyaki", price: "$12.59"},
-  {num:6, name: "Tonkatsu", price: "$12.49"},
-  {num:7, name: "Chicken Katsu", price: "$12.59"},
+  {num:1, name: "Chicken Teriyaki", price: "$9.99"},
+  {num:2, name: "Beef Teriyaki", price: "$12.59"},
+  {num:3, name: "Pork Teriyaki", price: "$12.39"},
+  {num:4, name: "Short Ribs", price: "$14.19"},
+  {num:5, name: "Salmon Teriyaki", price: "$12.79"},
+  {num:6, name: "Tonkatsu", price: "$12.79"},
+  {num:7, name: "Chicken Katsu", price: "$12.99"},
   ];
 
   var comboTeriyaki = [
-  {num:8, name: "Chicken Teri &amp; Gyoza", price: "$11.99"},
-  {num:9, name: "Chicken &amp; Beef", price: "$12.99"},
-  {num:10, name: "Chicken &amp; Pork", price: "$12.59"},
-  {num:11, name: "Beef &amp; Pork", price: "$14.29"},
-  {num:12, name: "Chicken &amp; Short Ribs", price: "$15.29"},
+  {num:8, name: "Chicken Teri &amp; Gyoza", price: "$12.39"},
+  {num:9, name: "Chicken &amp; Beef", price: "$13.39"},
+  {num:10, name: "Chicken &amp; Pork", price: "$13.19"},
+  {num:11, name: "Beef &amp; Pork", price: "$14.79"},
+  {num:12, name: "Chicken &amp; Short Ribs", price: "$15.99"},
   ];
 
   var tempura = [
-  {num:13, name: "Shrimp Tempura", price: "$11.99"},
-  {num:14, name: "Vegetable Tempura", price: "$9.59"},
-  {num:15, name: "Chicken Teriyaki &amp; Vegetable Tempura", price: "$11.99"},
-  {num:16, name: "Beef Teriyaki &amp; Vegetable Tempura", price: "$14.29"},
-  {num:17, name: "Pork Teriyaki &amp; Vegetable Tempura", price: "$13.99"},
+  {num:13, name: "Shrimp Tempura", price: "$12.39"},
+  {num:14, name: "Vegetable Tempura", price: "$9.99"},
+  {num:15, name: "Chicken Teriyaki &amp; Vegetable Tempura", price: "$12.39"},
+  {num:16, name: "Beef Teriyaki &amp; Vegetable Tempura", price: "$14.59"},
+  {num:17, name: "Pork Teriyaki &amp; Vegetable Tempura", price: "$14.39"},
   ];
 
   var donburi = [
-  {num:18, name: "Chicken Donburi", price: "$9.79"},
-  {num:19, name: "Beef Donburi", price: "$12.01"},
-  {num:20, name: "Katsu Donburi", price: "$11.59"},
+  {num:18, name: "Chicken Donburi", price: "$9.99"},
+  {num:19, name: "Beef Donburi", price: "$12.59"},
+  {num:20, name: "Katsu Donburi", price: "$12.09"},
   ];
 
   var noodles = [
-  {num:21, name: "Chicken Yakisoba", price: "$11.59"},
-  {num:22, name: "Beef Yakisoba", price: "$12.29"},
-  {num:23, name: "Pork Yakisoba", price: "$12.29"},
-  {num:24, name: "Vegetable Yakisoba", price: "$10.50"},
-  {num:25, name: "Shrimp Yakisoba", price: "$12.49"},
+  {num:21, name: "Chicken Yakisoba", price: "$12.09"},
+  {num:22, name: "Beef Yakisoba", price: "$12.79"},
+  {num:23, name: "Pork Yakisoba", price: "$12.79"},
+  {num:24, name: "Vegetable Yakisoba", price: "$11.09"},
+  {num:25, name: "Shrimp Yakisoba", price: "$12.99"},
   {num:26, name: "Udon", price: "$9.25"},
-  {num:27, name: "Chicken Udon", price: "$9.69"},
-  {num:28, name: "Beef Udon", price: "$11.59"},
-  {num:29, name: "Tempura Udon", price: "$11.59"},
-  {num:30, name: "Gyoza Dinner (8 pieces)", price: "$9.69"},
+  {num:27, name: "Chicken Udon", price: "$9.99"},
+  {num:28, name: "Beef Udon", price: "$12.39"},
+  {num:29, name: "Tempura Udon", price: "$12.39"},
+  {num:30, name: "Gyoza Dinner (8 pieces)", price: "$9.99"},
   ];
 
   var sides = [
   {num:31, name: "Gyoza (8 pieces)", price: "$4.58"},
   {num:32, name: "Shrimp Tempura(3)", price: "$4.75"},
   {num:33, name: "Egg Roll(2)", price: "$3.25"},
-  {num:34, name: "Sauteed Vegetable", price: "$7.99"},
+  {num:34, name: "Sauteed Vegetable", price: "$8.25"},
   {num:35, name: "Vegetable Tempura (A)", price: "$5.95"},
-  {num:35, name: "Vege Tempura Combo (B)", price: "$7.75"},
+  {num:35, name: "Vege Tempura Combo (B)", price: "$7.95"},
   {num:36, name: "Miso Soup", price: "$1.99"},
   {num:37, name: "Kim Chee", price: "$2.99"},
   {num:38, name: "Steamed Rice", price: "$0.79"},
-  {num:39, name: "Side Salad small", price: "$3.99"},
-  {num:39, name: "Side Salad large", price: "$4.99"},
+  {num:39, name: "Side Salad small", price: "$4.25"},
+  {num:39, name: "Side Salad large", price: "$5.25"},
   ];
 
   var specials = [
-  {num:0, name: "Chicken Curry", price: "$9.59"},
-  {num:0, name: "Beef Curry", price: "$10.99"},
+  {num:0, name: "Chicken Curry", price: "$9.99"},
+  {num:0, name: "Beef Curry", price: "$11.99"},
   ];
 
   var extras = [
