@@ -71,8 +71,8 @@
 $(document).ready(function(){
   var teriyaki = [
   {num:1, name: "Chicken Teriyaki", price: "$9.99"},
-  {num:2, name: "Beef Teriyaki", price: "$12.59"},
-  {num:3, name: "Pork Teriyaki", price: "$12.39"},
+  {num:2, name: "Beef Teriyaki", price: "$12.79"},
+  {num:3, name: "Pork Teriyaki", price: "$12.49"},
   {num:4, name: "Short Ribs", price: "$14.19"},
   {num:5, name: "Salmon Teriyaki", price: "$12.79"},
   {num:6, name: "Tonkatsu", price: "$12.79"},
@@ -81,8 +81,8 @@ $(document).ready(function(){
 
   var comboTeriyaki = [
   {num:8, name: "Chicken Teri &amp; Gyoza", price: "$12.39"},
-  {num:9, name: "Chicken &amp; Beef", price: "$13.39"},
-  {num:10, name: "Chicken &amp; Pork", price: "$13.19"},
+  {num:9, name: "Chicken &amp; Beef", price: "$13.49"},
+  {num:10, name: "Chicken &amp; Pork", price: "$13.29"},
   {num:11, name: "Beef &amp; Pork", price: "$14.79"},
   {num:12, name: "Chicken &amp; Short Ribs", price: "$15.99"},
   ];
