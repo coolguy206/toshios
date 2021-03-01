@@ -76,7 +76,7 @@ $(document).ready(function(){
   {num:4, name: "Short Ribs", price: "$14.49"},
   {num:5, name: "Salmon Teriyaki", price: "$12.99"},
   {num:6, name: "Tonkatsu", price: "$12.79"},
-  {num:7, name: "Chicken Katsu", price: "$13.99"},
+  {num:7, name: "Chicken Katsu", price: "$13.19"},
   ];
 
   var comboTeriyaki = [
