@@ -73,44 +73,44 @@ $(document).ready(function(){
   {num:1, name: "Chicken Teriyaki", price: "$9.99"},
   {num:2, name: "Beef Teriyaki", price: "$12.79"},
   {num:3, name: "Pork Teriyaki", price: "$12.49"},
-  {num:4, name: "Short Ribs", price: "$14.19"},
-  {num:5, name: "Salmon Teriyaki", price: "$12.79"},
+  {num:4, name: "Short Ribs", price: "$14.49"},
+  {num:5, name: "Salmon Teriyaki", price: "$12.99"},
   {num:6, name: "Tonkatsu", price: "$12.79"},
-  {num:7, name: "Chicken Katsu", price: "$12.99"},
+  {num:7, name: "Chicken Katsu", price: "$13.99"},
   ];
 
   var comboTeriyaki = [
-  {num:8, name: "Chicken Teri &amp; Gyoza", price: "$12.39"},
-  {num:9, name: "Chicken &amp; Beef", price: "$13.49"},
-  {num:10, name: "Chicken &amp; Pork", price: "$13.29"},
+  {num:8, name: "Chicken Teri &amp; Gyoza", price: "$12.49"},
+  {num:9, name: "Chicken &amp; Beef", price: "$13.79"},
+  {num:10, name: "Chicken &amp; Pork", price: "$13.49"},
   {num:11, name: "Beef &amp; Pork", price: "$14.79"},
-  {num:12, name: "Chicken &amp; Short Ribs", price: "$15.99"},
+  {num:12, name: "Chicken &amp; Short Ribs", price: "$16.39"},
   ];
 
   var tempura = [
-  {num:13, name: "Shrimp Tempura", price: "$12.39"},
+  {num:13, name: "Shrimp Tempura", price: "$12.49"},
   {num:14, name: "Vegetable Tempura", price: "$9.99"},
-  {num:15, name: "Chicken Teriyaki &amp; Vegetable Tempura", price: "$12.39"},
-  {num:16, name: "Beef Teriyaki &amp; Vegetable Tempura", price: "$14.59"},
-  {num:17, name: "Pork Teriyaki &amp; Vegetable Tempura", price: "$14.39"},
+  {num:15, name: "Chicken Teriyaki &amp; Vegetable Tempura", price: "$12.49"},
+  {num:16, name: "Beef Teriyaki &amp; Vegetable Tempura", price: "$14.79"},
+  {num:17, name: "Pork Teriyaki &amp; Vegetable Tempura", price: "$14.49"},
   ];
 
   var donburi = [
   {num:18, name: "Chicken Donburi", price: "$9.99"},
-  {num:19, name: "Beef Donburi", price: "$12.59"},
-  {num:20, name: "Katsu Donburi", price: "$12.09"},
+  {num:19, name: "Beef Donburi", price: "$12.79"},
+  {num:20, name: "Katsu Donburi", price: "$12.49"},
   ];
 
   var noodles = [
-  {num:21, name: "Chicken Yakisoba", price: "$12.09"},
-  {num:22, name: "Beef Yakisoba", price: "$12.79"},
-  {num:23, name: "Pork Yakisoba", price: "$12.79"},
+  {num:21, name: "Chicken Yakisoba", price: "$12.29"},
+  {num:22, name: "Beef Yakisoba", price: "$12.99"},
+  {num:23, name: "Pork Yakisoba", price: "$12.99"},
   {num:24, name: "Vegetable Yakisoba", price: "$11.09"},
   {num:25, name: "Shrimp Yakisoba", price: "$12.99"},
   {num:26, name: "Udon", price: "$9.25"},
   {num:27, name: "Chicken Udon", price: "$9.99"},
-  {num:28, name: "Beef Udon", price: "$12.39"},
-  {num:29, name: "Tempura Udon", price: "$12.39"},
+  {num:28, name: "Beef Udon", price: "$12.49"},
+  {num:29, name: "Tempura Udon", price: "$12.99"},
   {num:30, name: "Gyoza Dinner (8 pieces)", price: "$9.99"},
   ];
 
@@ -119,7 +119,7 @@ $(document).ready(function(){
   {num:32, name: "Shrimp Tempura(3)", price: "$4.75"},
   {num:33, name: "Egg Roll(2)", price: "$3.25"},
   {num:34, name: "Sauteed Vegetable", price: "$8.25"},
-  {num:35, name: "Vegetable Tempura (A)", price: "$5.95"},
+  {num:35, name: "Vegetable Tempura (A)", price: "$6.59"},
   {num:35, name: "Vege Tempura Combo (B)", price: "$7.95"},
   {num:36, name: "Miso Soup", price: "$1.99"},
   {num:37, name: "Kim Chee", price: "$2.99"},
@@ -130,7 +130,7 @@ $(document).ready(function(){
 
   var specials = [
   {num:0, name: "Chicken Curry", price: "$9.99"},
-  {num:0, name: "Beef Curry", price: "$11.99"},
+  {num:0, name: "Beef Curry", price: "$11.49"},
   ];
 
   var extras = [
