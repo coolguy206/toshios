@@ -1,0 +1,36 @@
+{
+  "name": "toshios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "@types/node-fetch": "^2.6.1",
+    "async": "^2.6.3",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "extract-zip": "^2.0.1",
+    "ftp": "^0.3.10",
+    "grunt": "^1.4.1",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ftp-push": "^1.2.1",
+    "jquery": "^3.6.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.7.6",
+    "grunt-babel": "^8.0.0",
+    "grunt-browserify": "^6.0.0",
+    "grunt-includes": "^1.0.0",
+    "load-grunt-config": "^4.0.1",
+    "load-grunt-tasks": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
