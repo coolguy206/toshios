@@ -11,7 +11,7 @@
 
 </div><!--.footer-wrapper-->
 
-<script src="js/scripts.js"></script>
+<script src="js/jsmin/scripts.js"></script>
 
 </body>
 
