@@ -5,9 +5,10 @@ const writeFileContent = util.promisify(fs.writeFile);
 const mkDir = util.promisify(fs.mkdir);
 require('dotenv').config()
 
-var baseURL = `/public_html/`;
+var baseURL = `/public_html/js/jsmin/`;
 var url = `${baseURL}`
-var readFilePath = ``;
+var readFilePath = `js/jsmin/`;
+var fileName = `menu.min.js`;
 var writeFilePath = ``;
 
 // console.log(url)
@@ -15,50 +16,33 @@ var writeFilePath = ``;
 
 var c = new Client();
 c.on('ready', function() {
-  /*
-    //UPLOAD FILE TO DIRECTORY
-    fs.readdir(`${readFilePath}`, (err, files) => {
-      if (err) throw err;
-      // console.log("\nCurrent directory filenames:");
-      files.forEach(file => {
-        // console.log(`${readFilePath}${file}`);
-        // console.log(`${url}${file}`)
 
-        //upload the file
-        c.put(`${readFilePath}${file}`, `${url}${file}`, (err) => {
-          if (err) throw err;
-          console.log(`successfully uploaded file: ${file}`);
+  //UPLOAD SINGLE FILE TO DIRECTORY
 
-        });
+  c.put(`${readFilePath}${fileName}`, `${url}${fileName}`, (err) => {
+    if (err) throw err;
+    console.log(`successfully uploaded file: ${fileName}`);
+    c.end();
+  });
 
-      });
-    })
-  */
+
+
   //MAKE DIRECTORY THEN UPLOAD FILES AND MAKE HTML FILES
   /*
     c.mkdir(url, true, (err) => {
       if (err) throw err;
       console.log(`successfully made dir: ${url}`);
-      //read the files on local machine
-      fs.readdir(`${readFilePath}`, (err, files) => {
+
+      //upload file
+      c.put(`${readFilePath}${fileName}`, `${url}${fileName}`, (err) => {
         if (err) throw err;
-        // console.log("\nCurrent directory filenames:");
-        files.forEach(file => {
-          // console.log(`${readFilePath}${file}`);
-          // console.log(`${url}${file}`)
+        console.log(`successfully uploaded file: ${fileName}`);
+        c.end();
+      });
 
-          //upload the file
-          c.put(`${readFilePath}${file}`, `${url}${file}`, (err) => {
-            if (err) throw err;
-            console.log(`successfully uploaded file: ${file}`);
-            c.end();
-          });
-
-        });
-      })
-      // c.end();
     });
   */
+
 
   //GET LIST OF FILES THEN COMPILE HTML FILES
   /*
@@ -69,6 +53,7 @@ c.on('ready', function() {
       c.end();
     });
   */
+
 
   //GET LIST OF FILES THEN DELETE FILES IN DIRECTORY
   /*
@@ -91,18 +76,20 @@ c.on('ready', function() {
   });
   */
 
-  //LIST DIRECTORIES
 
-  c.list(url, function(err, list) {
-    if (err) throw err;
-    list.map((val, i) => {
-      // if (val.type == 'd') {
-      console.log(val);
-      // }
-    })
-    // console.dir(list);
-    c.end();
-  });
+  //LIST DIRECTORIES
+  /*
+    c.list(url, function(err, list) {
+      if (err) throw err;
+      list.map((val, i) => {
+        // if (val.type == 'd') {
+        console.log(val);
+        // }
+      })
+      // console.dir(list);
+      c.end();
+    });
+  */
 
 });
 //CONNECT FTP

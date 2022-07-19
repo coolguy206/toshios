@@ -65,6 +65,6 @@
 
 </div><!--.box460-->
 
-<script src="js/jsmin/menu.js"></script>
+<script src="js/jsmin/menu.min.js"></script>
 
 <?php include('footer.php'); ?>
