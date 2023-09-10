@@ -9,181 +9,181 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
   var teriyaki = [{
     num: 1,
     name: "Chicken Teriyaki",
-    price: "$10.99"
+    price: "$11.99"
   }, {
     num: 2,
     name: "Beef Teriyaki",
-    price: "$14.19"
+    price: "$15.69"
   }, {
     num: 3,
     name: "Pork Teriyaki",
-    price: "$13.79"
+    price: "$15.39"
   }, {
     num: 4,
     name: "Short Ribs",
-    price: "$15.99"
+    price: "$17.99"
   }, {
     num: 5,
     name: "Salmon Teriyaki",
-    price: "$13.99"
+    price: "$15.69"
   }, {
     num: 6,
     name: "Tonkatsu",
-    price: "$13.79"
+    price: "$15.39"
   }, {
     num: 7,
     name: "Chicken Katsu",
-    price: "$13.99"
+    price: "$15.69"
   }];
   var comboTeriyaki = [{
     num: 8,
     name: "Chicken Teri &amp; Gyoza",
-    price: "$13.49"
+    price: "$14.99"
   }, {
     num: 9,
     name: "Chicken &amp; Beef",
-    price: "$14.99"
+    price: "$16.79"
   }, {
     num: 10,
     name: "Chicken &amp; Pork",
-    price: "$14.79"
+    price: "$16.39"
   }, {
     num: 11,
     name: "Beef &amp; Pork",
-    price: "$16.79"
+    price: "$17.99"
   }, {
     num: 12,
     name: "Chicken &amp; Short Ribs",
-    price: "$18.29"
+    price: "$19.59"
   }];
   var tempura = [{
     num: 13,
     name: "Shrimp Tempura",
-    price: "$13.49"
+    price: "$14.99"
   }, {
     num: 14,
     name: "Vegetable Tempura",
-    price: "$10.99"
+    price: "$12.39"
   }, {
     num: 15,
     name: "Chicken Teriyaki &amp; Vegetable Tempura",
-    price: "$13.59"
+    price: "$15.79"
   }, {
     num: 16,
     name: "Beef Teriyaki &amp; Vegetable Tempura",
-    price: "$16.99"
+    price: "$18.39"
   }, {
     num: 17,
     name: "Pork Teriyaki &amp; Vegetable Tempura",
-    price: "$16.59"
+    price: "$17.99"
   }];
   var donburi = [{
     num: 18,
     name: "Chicken Donburi",
-    price: "$10.99"
+    price: "$12.39"
   }, {
     num: 19,
     name: "Beef Donburi",
-    price: "$14.19"
+    price: "$15.99"
   }, {
     num: 20,
     name: "Katsu Donburi",
-    price: "$13.79"
+    price: "$15.59"
   }];
   var noodles = [{
     num: 21,
     name: "Chicken Yakisoba",
-    price: "$13.69"
+    price: "$15.59"
   }, {
     num: 22,
     name: "Beef Yakisoba",
-    price: "$14.09"
+    price: "$16.49"
   }, {
     num: 23,
     name: "Pork Yakisoba",
-    price: "$13.79"
+    price: "$16.29"
   }, {
     num: 24,
     name: "Vegetable Yakisoba",
-    price: "$12.59"
+    price: "$14.39"
   }, {
     num: 25,
     name: "Shrimp Yakisoba",
-    price: "$14.09"
+    price: "$16.79"
   }, {
     num: 26,
     name: "Udon",
-    price: "$9.99"
+    price: "$11.49"
   }, {
     num: 27,
     name: "Chicken Udon",
-    price: "$10.99"
+    price: "$12.39"
   }, {
     num: 28,
     name: "Beef Udon",
-    price: "$13.99"
+    price: "$15.39"
   }, {
     num: 29,
     name: "Tempura Udon",
-    price: "$13.99"
+    price: "$15.39"
   }, {
     num: 30,
     name: "Gyoza Dinner (8 pieces)",
-    price: "$10.99"
+    price: "$12.39"
   }];
   var sides = [{
     num: 31,
     name: "Gyoza (8 pieces)",
-    price: "$4.75"
+    price: "$4.95"
   }, {
     num: 32,
     name: "Shrimp Tempura(3)",
-    price: "$4.89"
+    price: "$5.39"
   }, {
     num: 33,
     name: "Egg Roll(2)",
-    price: "$3.34"
+    price: "$3.79"
   }, {
     num: 34,
     name: "Sauteed Vegetable",
-    price: "$8.25"
+    price: "$10.99"
   }, {
     num: 35,
     name: "Vegetable Tempura (A)",
-    price: "$7.55"
+    price: "$9.99"
   }, {
     num: 35,
     name: "Vege Tempura Combo (B)",
-    price: "$9.50"
+    price: "$11.99"
   }, {
     num: 36,
     name: "Miso Soup",
-    price: "$1.99"
+    price: "$2.19"
   }, {
     num: 37,
     name: "Kim Chee",
-    price: "$2.99"
+    price: "$3.49"
   }, {
     num: 38,
     name: "Steamed Rice",
-    price: "$0.89"
+    price: "$0.99"
   }, {
     num: 39,
     name: "Side Salad small",
-    price: "$4.45"
+    price: "$4.99"
   }, {
     num: 39,
     name: "Side Salad large",
-    price: "$5.45"
+    price: "$9.99"
   }];
   var specials = [{
     num: 0,
     name: "Chicken Curry",
-    price: "$10.99"
+    price: "$12.39"
   }, {
     num: 0,
     name: "Beef Curry",
-    price: "$13.59"
+    price: "$15.39"
   }];
   var extras = [{
     num: 0,
