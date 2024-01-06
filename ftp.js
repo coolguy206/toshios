@@ -11,8 +11,8 @@ var readFilePath = `js/jsmin/`;
 var fileName = `menu.min.js`;
 var writeFilePath = ``;
 
-// console.log(url)
-// console.log(process.env.FTP_HOST, process.env.FTP_USER, process.env.FTP_PASSWORD);
+console.log(url)
+console.log(process.env.FTP_HOST, process.env.FTP_USER, process.env.FTP_PASSWORD);
 
 var c = new Client();
 c.on('ready', function() {
@@ -90,7 +90,7 @@ c.on('ready', function() {
       c.end();
     });
   */
-
+  
 });
 //CONNECT FTP
 c.connect({
