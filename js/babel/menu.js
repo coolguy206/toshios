@@ -200,15 +200,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
   var beverages = [{
     num: 0,
     name: "Large",
-    price: "$2.29"
+    price: "$2.49"
   }, {
     num: 0,
     name: "Medium",
-    price: "$1.99"
+    price: "$2.19"
   }, {
     num: 0,
     name: "Small",
-    price: "$1.69"
+    price: "$1.79"
   }];
 
   var loop = function loop(arr, elem) {
